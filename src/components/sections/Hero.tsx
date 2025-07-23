@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
               className="hero-subtitle"
             >
               SiteKom, votre partenaire de confiance pour transformer vos idées en réalité digitale. <br />
-              Notre équipe de deux développeurs passionnés vous accompagne dans tous vos projets web et mobiles.
+              Notre équipe de trois développeurs passionnés vous accompagne dans tous vos projets web et mobiles.
             </motion.p>
             {/* Boutons d'action animés avancés */}
             <motion.div
