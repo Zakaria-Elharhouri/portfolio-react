@@ -61,7 +61,7 @@ const Header: React.FC = () => {
               duration={500}
               className="text-2xl md:text-2xl font-extrabold text-primary cursor-pointer tracking-tight"
               style={{letterSpacing: '-0.02em'}}>
-              SiteKom
+              Codea360
             </Link>
           </motion.div>
 

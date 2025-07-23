@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.5, type: 'spring', stiffness: 60 }}
               className="hero-subtitle"
             >
-              SiteKom, votre partenaire de confiance pour transformer vos idées en réalité digitale. <br />
+              Codea360, votre partenaire de confiance pour transformer vos idées en réalité digitale. <br />
               Notre équipe de trois développeurs passionnés vous accompagne dans tous vos projets web et mobiles.
             </motion.p>
             {/* Boutons d'action animés avancés */}

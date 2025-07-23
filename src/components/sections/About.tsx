@@ -62,7 +62,7 @@ const About: React.FC = () => {
               className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6"
             >
               <Users className="w-4 h-4" />
-              À propos de SiteKom
+              À propos de Codea360
             </motion.div>
             {/* Titre animé gauche */}
             <motion.h2
@@ -77,7 +77,7 @@ const About: React.FC = () => {
               variants={{ hidden: { opacity: 0, y: 40 }, visible: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 60 } } }}
               className="section-subtitle max-w-2xl mb-6"
             >
-              SiteKom est né de la passion de deux développeurs pour créer des expériences digitales exceptionnelles. 
+              Codea360 est né de la passion de trois développeurs pour créer des expériences digitales exceptionnelles. 
               Notre approche collaborative et notre expertise technique nous permettent de transformer vos idées 
               en applications web et mobiles performantes.
             </motion.p>
@@ -119,12 +119,7 @@ const About: React.FC = () => {
               variants={{ hidden: { opacity: 0, x: 80 }, visible: { opacity: 1, x: 0, transition: { type: 'spring', stiffness: 70 } } }}
               className="relative"
             >
-              <div className="aspect-video bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl flex items-center justify-center card">
-                <div className="text-center">
-                  <Users className="w-16 h-16 text-primary mx-auto mb-4" />
-                  <p className="text-gray-600 dark:text-gray-400">Photo d'équipe SiteKom</p>
-                </div>
-              </div>
+              
               {/* Éléments décoratifs */}
               <div className="absolute -top-4 -right-4 w-20 h-20 bg-accent/20 rounded-full" />
               <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-secondary/20 rounded-full" />
@@ -170,7 +165,7 @@ const About: React.FC = () => {
             variants={{ hidden: { opacity: 0, y: -50 }, visible: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 70 } } }}
             className="text-center mb-section"
           >
-            <h3 className="text-3xl font-bold mb-4 section-subtitle">Pourquoi choisir SiteKom ?</h3>
+            <h3 className="text-3xl font-bold mb-4 section-subtitle">Pourquoi choisir Codea360 ?</h3>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Notre approche unique et notre expertise technique nous distinguent de la concurrence
             </p>

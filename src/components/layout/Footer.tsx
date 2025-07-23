@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="flex items-center gap-3 mb-4"
             >
-              <span className="text-3xl font-extrabold text-white tracking-tight">Site<span className="text-accent">Kom</span></span>
+              <span className="text-3xl font-extrabold text-white tracking-tight">Codea360<span className="text-accent"></span></span>
             </motion.div>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-gray-100/90 text-base leading-relaxed max-w-xs"
             >
-              Duo de développeurs full-stack passionnés, nous créons des solutions digitales robustes, élégantes et sur-mesure. Notre accompagnement personnalisé inspire confiance et fait la différence pour votre projet.
+              Trois de développeurs full-stack passionnés, nous créons des solutions digitales robustes, élégantes et sur-mesure. Notre accompagnement personnalisé inspire confiance et fait la différence pour votre projet.
             </motion.p>
           </motion.div>
           {/* Liens rapides animés */}
@@ -134,7 +134,7 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-sm text-gray-200 text-center md:text-left"
           >
-            © {new Date().getFullYear()} SiteKom. Tous droits réservés.
+            © {new Date().getFullYear()} Codea360. Tous droits réservés.
           </motion.div>
           <motion.div
             initial="hidden"
