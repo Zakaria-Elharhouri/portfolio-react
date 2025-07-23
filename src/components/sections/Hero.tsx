@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.7, delay: 0.1, type: 'spring', stiffness: 60 }}
               className="hero-badge"
             >
-              <Users className="w-4 h-4" /> Duo de développeurs full-stack
+              <Users className="w-4 h-4" /> Trio de développeurs full-stack
             </motion.div>
             {/* Titre principal animé (cascade, alternance gauche/droite) */}
             <motion.h1
